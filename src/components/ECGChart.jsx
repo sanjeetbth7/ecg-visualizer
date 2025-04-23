@@ -9,6 +9,8 @@ import {
   Tooltip,
   Legend,
   Title,
+  LineController,
+  ScatterController, // ✅ Import added
 } from 'chart.js';
 
 ChartJS.register(
@@ -18,7 +20,9 @@ ChartJS.register(
   PointElement,
   Tooltip,
   Legend,
-  Title
+  Title,
+  LineController,
+  ScatterController // ✅ Registration added
 );
 
 const WINDOW_SIZE = 800;
